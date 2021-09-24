@@ -5,3 +5,16 @@
 .table-div {
   text-align: center;
 }
+
+.header {
+  border: none;
+  text-align: center;
+  color: rgb(93, 166, 207);
+  background-color: #384047;
+  padding: 2rem;
+  margin-top: 0%;
+}
+.by {
+  text-align: right;
+  padding: 1rem;
+}

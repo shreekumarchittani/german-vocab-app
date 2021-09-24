@@ -43,13 +43,15 @@ function App() {
   }
   return (
     <div>
+      <h1 className="header">GERMAN VOCABULARY LIST</h1>
+      <p className="by">By Shreekumar</p>
       <Input onAdd = {onAddHandler}/>
       <div className="table-div">
         <Table vocab={maleVocab} article="Der"/>
         <Table vocab={femaleVocab} article="Das"/>
         <Table vocab={neutrVocab} article="Die"/>
       </div>
-
+      
     </div>
   );
 }
