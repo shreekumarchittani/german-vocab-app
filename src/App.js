@@ -22,7 +22,7 @@ function App() {
     setMaleVocab(JSON.parse(localStorage.getItem("malevocab")));
     setfemaleVocab(JSON.parse(localStorage.getItem("femaleVocab")));
     setNeutrVocab(JSON.parse(localStorage.getItem("neutrVocab")));
-  },[])
+  },[maleVocab,femaleVocab,neutrVocab])
 
   const onAddHandler = (voc) => {
     if (voc.gender.toLowerCase() === 'der') {
