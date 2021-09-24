@@ -6,7 +6,6 @@ const Input = (props) => {
     const nounRef = useRef();
     const [genderValid, setGenderValid] = useState(false);
     const [nounValid, setNounValid] = useState(false);
-    const [formValid, setFormValid] = useState(false);
 
     const onSubmitHandler = (event) => {
         event.preventDefault();
@@ -18,7 +17,6 @@ const Input = (props) => {
             alert("Noun can not be empty");
             return;
         }
-        setFormValid(true);
         props.onAdd({gender: genderRef.current.value, noun: nounRef.current.value});
     }
 
