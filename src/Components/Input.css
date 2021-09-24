@@ -1,0 +1,67 @@
+.form-wrapper {
+    min-height: 40vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 8%; */
+    text-align: center;
+  }
+  .facebook-style-btn {
+    border-radius: 2px;
+    font-size: 0.9em;
+    padding: 6px 12px;
+    margin-top: 5%;
+    
+}
+
+.facebook-style-light {
+  background: #f6f7f9;
+  border: solid 1px #ced0d4;
+  color: #4b4f56;
+}
+  .facebook-style-light:hover { background: #e9ebee; }
+  .facebook-style-light:active {
+      background: #d8dade;
+      border-color: #d8dade;
+  }
+
+  input[type="text"]{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 4px;
+    margin-right: 1%;
+    margin-top: 5%
+  }
+  input[type="text"]:focus {
+    outline: none;
+    border-bottom: 2px solid #bbcac6;
+  }
+ 
+  /*
+  .newsletter-signup-form-label {
+    font-size: 18px;
+    color: #bbcac6;
+    position: absolute;
+    bottom: 4px;
+    left: 2px;
+    transition: all ease-in-out 0.2s;
+  }
+  .newsletter-signup-form-label-shifted {
+    font-size: 13px;
+    color: #bbcac6;
+    transform: translateY(-30px);
+    transition: all ease-in-out 0.2s;
+    left: 4px;
+  }
+  .newsletter-signup-form-label-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    margin: 0px 0px 40px;
+  }
+  
+  
+
+  } */
